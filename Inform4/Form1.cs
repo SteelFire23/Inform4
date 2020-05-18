@@ -41,7 +41,7 @@ namespace Inform4
         }
         public static int ImgTest(FileInfo file)
         {
-            string[] gf = new string[] { "png", "jpg", "bmp" };
+            string[] gf = new string[] { "png", "jpg", "bmp", "jpeg" };
             for (int i = 0; i < gf.Length; i++)
             {
                 if (file.Name.Contains(gf[i])) return 1;
